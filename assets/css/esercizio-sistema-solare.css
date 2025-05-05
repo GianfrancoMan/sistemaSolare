@@ -118,6 +118,10 @@ li {
     text-align: left;
 }
 
+.card-text {
+    height: 442px;
+}
+
 .footer {
     background-color: #EC8305;
     height: 150px;
