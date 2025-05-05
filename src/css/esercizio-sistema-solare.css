@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: #eee;    
+    font-family: 'EB Garamond', serif;
+}
+/* eb-garamond-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../assets/fonts/eb-garamond-v30-latin/eb-garamond-v30-latin/eb-garamond-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* eb-garamond-italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    src: url('./../../assets/fonts/eb-garamond-v30-latin/eb-garamond-v30-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* eb-garamond-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./../../assets/fonts/eb-garamond-v30-latin/eb-garamond-v30-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* eb-garamond-800italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 800;
+    src: url('./../../assets/fonts/eb-garamond-v30-latin/eb-garamond-v30-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+.header {
+    background-color: #091057;
+    height: 300px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #DBD3D3;
+    color: #EC8305;
+    text-align: center;
+    line-height: 300px;
+
+}
+
+.content {
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #091057;
+    font-size: 0;
+}
+
+.info {    
+    background-color: #EC8305;
+    border: 3px solid #091057;
+    padding: 20px;
+    font-size: 20px;
+}
+
+h1 {text-align: center;}
+
+.content-text {
+    padding: 10px 0;
+    text-align: left;
+}
+
+.planet-list {
+    padding: 10px 0 10px 30px;
+    text-align: left;
+}
+
+li {
+    list-style-image: url("./../../assets/img/icons8-pianeta-11.png");
+    padding: 5px 0;
+}
+
+.card {
+    display: inline-block;
+    color: #091057;
+    border: 1px solid #091057;
+    width: calc(33.3% - 14px);
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card.left {
+    margin-right: 0;
+}
+
+.card-header, .card-body {
+    border-bottom: 1px solid #091057;
+}
+
+.card-header, .card-body, .card-footer {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.card-footer {
+    font-size: 22px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.footer {
+    background-color: #EC8305;
+    height: 150px;
+}
+
+
