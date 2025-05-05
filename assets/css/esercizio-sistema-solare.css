@@ -12,7 +12,7 @@ body {
     font-family: 'EB Garamond';
     font-style: normal;
     font-weight: 400;
-    src: url('./../../assets/fonts/eb-garamond-v30-latin/eb-garamond-v30-latin/eb-garamond-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('./../fonts/eb-garamond-v30-latin/eb-garamond-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* eb-garamond-italic - latin */
   @font-face {
@@ -20,7 +20,7 @@ body {
     font-family: 'EB Garamond';
     font-style: italic;
     font-weight: 400;
-    src: url('./../../assets/fonts/eb-garamond-v30-latin/eb-garamond-v30-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('./../fonts/eb-garamond-v30-latin/eb-garamond-v30-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* eb-garamond-800 - latin */
   @font-face {
@@ -28,7 +28,7 @@ body {
     font-family: 'EB Garamond';
     font-style: normal;
     font-weight: 800;
-    src: url('./../../assets/fonts/eb-garamond-v30-latin/eb-garamond-v30-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('./../fonts/eb-garamond-v30-latin/eb-garamond-v30-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* eb-garamond-800italic - latin */
   @font-face {
@@ -36,7 +36,7 @@ body {
     font-family: 'EB Garamond';
     font-style: italic;
     font-weight: 800;
-    src: url('./../../assets/fonts/eb-garamond-v30-latin/eb-garamond-v30-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('./../fonts/eb-garamond-v30-latin/eb-garamond-v30-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
 .header {
@@ -83,7 +83,7 @@ h1 {text-align: center;}
 }
 
 li {
-    list-style-image: url("./../../assets/img/icons8-pianeta-11.png");
+    list-style-image: url("./../img/icons8-pianeta-11.png");
     padding: 5px 0;
 }
 
