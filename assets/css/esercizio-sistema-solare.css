@@ -58,19 +58,27 @@ body {
     width: 95%;
     margin: auto;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     color: #091057;
     font-size: 0;
 }
+
+.content--card { margin-top: 20px;}
 
 .info {    
     background-color: #EC8305;
     border: 3px solid #091057;
     padding: 20px;
     font-size: 20px;
+    line-height: 1.15;
 }
 
-h1 {text-align: center;}
+h1 {
+    text-align: center;
+    word-spacing: 3px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
 
 .content-text {
     padding: 10px 0;
@@ -78,7 +86,7 @@ h1 {text-align: center;}
 }
 
 .planet-list {
-    padding: 10px 0 10px 30px;
+    padding: 10px 0 10px 70px;
     text-align: left;
 }
 
@@ -91,14 +99,18 @@ li {
     display: inline-block;
     color: #091057;
     border: 1px solid #091057;
-    width: calc(33.3% - 14px);
+    width: calc(33.3333333% - 20px);
     font-size: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
-.card.left {
+.card-left {
+    margin-left: 0;
+    width: calc(33.3333333% - 10px);
+}
+.card-right {
     margin-right: 0;
+    width: calc(33.3333333% - 10px);
 }
 
 .card-header, .card-body {
@@ -106,13 +118,15 @@ li {
 }
 
 .card-header, .card-body, .card-footer {
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-align: center;
 }
 
 .card-footer {
     font-size: 22px;
 }
+
+.card-footer p { cursor: pointer;}
 
 .card-body {
     text-align: left;
@@ -124,7 +138,7 @@ li {
 
 .footer {
     background-color: #EC8305;
-    height: 150px;
+    padding: 20px 0;
 }
 
 
