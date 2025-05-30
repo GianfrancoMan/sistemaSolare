@@ -1,42 +1,5 @@
 @import url("./fonts.css");
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-html {
-    font-size: 20px;
-}
-
-  body {
-      background-color: #eee;    
-      font-family: 'EB Garamond', serif;
-  }
-
-.header:not(nav.header) {
-    /* background-color: #091057; */
-    position:relative;
-    background: radial-gradient(
-        circle 100px,
-        rgba(226, 226, 61, 0.283),
-        rgb(226, 226, 61) 75px,
-        rgb(100, 100, 17) 80px,
-        #14213dff
-        ) ;
-    height: 300px;
-}
-
-.title {
-    font-weight: 800;
-    font-size: 3.5rem;
-    text-shadow: 2px 2px 2px #DBD3D3;
-    color: #EC8305;
-    text-align: center;
-    line-height: 300px;
-
-}
-
 nav.header{
     padding:5px 5px;
     background-color: transparent;
@@ -65,16 +28,16 @@ nav.header>ul>li {
     margin-right: 20px;
 }
 nav.header>ul>li:hover {
-    border:1px solid white;
+    border:1px solid rgba(246, 243, 243, 0.853);
 }
 nav.header>ul>li>ul>li {
-    border-top:1px solid white;
-    border-right:1px solid white;
-    border-left:1px solid white;
+    border-top:1px solid rgba(246, 243, 243, 0.853);
+    border-right:1px solid rgba(246, 243, 243, 0.853);
+    border-left:1px solid rgba(246, 243, 243, 0.853);
     padding:10px 0;
 }
 nav.header>ul>li>ul>li:last-of-type {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(246, 243, 243, 0.853);
 }
 nav.header>ul>li>ul {
     opacity:0;
@@ -93,7 +56,7 @@ nav.header>ul>li>ul>li>a,
     display: block;
     height: 100%;
     line-height: 100%;
-    color: white;
+    color: rgba(246, 243, 243, 0.853);
     text-decoration: none;
     text-align: center;
 }
@@ -120,7 +83,7 @@ nav.header>ul>li:first-of-type ul {
     top:90%;
     left:-278.5%;
     width: 378.5%;
-    box-shadow: 0px 10px 5px #091057;
+    box-shadow: 0px 10px 10px #091057;
 }
 .dropdown:hover .dropdown-content{
     display: block;
@@ -186,7 +149,7 @@ li {
     padding: 5px 0;
 }
 
-.content div.card {
+.content .card {
     /* display: inline-block; */
     float:left;
     color: #091057;
@@ -197,8 +160,12 @@ li {
     margin-bottom: 20px;
     box-shadow: 1px 1px 5px #091057, -1px -1px 5px #091057;
 }
-.content div.card {cursor: pointer;}
-.content div.card:hover {box-shadow:  1px 1px 5px #EC8305, -1px -1px 5px #EC8305;}
+.content .card {cursor: pointer;}
+.content .card:hover {box-shadow:  1px 1px 5px #EC8305, -1px -1px 5px #EC8305;}
+a.card-link {
+    color: inherit;
+    text-decoration: none;
+}
 
 .content div.clearfix {
     clear:both;

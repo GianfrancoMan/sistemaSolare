@@ -1,0 +1,37 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+  body {
+      background-color: #eee;    
+      font-family: 'EB Garamond', serif;
+  }
+
+.header:not(nav.header) {
+    /* background-color: #091057; */
+    position:relative;
+    background: radial-gradient(
+        circle 100px,
+        rgba(226, 226, 61, 0.283),
+        rgb(226, 226, 61) 75px,
+        rgb(100, 100, 17) 80px,
+        #14213dff
+        ) ;
+    height: 300px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 2px #DBD3D3;
+    color: #EC8305;
+    text-align: center;
+    line-height: 300px;
+
+}
