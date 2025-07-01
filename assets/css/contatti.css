@@ -1,0 +1,118 @@
+@import url(./fonts.css);
+/*GENERAL RULES*/
+body {
+    background-image: url("./../img/back7.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    color: #091057;
+}
+
+h2 {
+    text-align: center;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color:#EC8305;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff7b00;
+}
+
+::placeholder {
+    font-style: italic;
+    color: #ccc;
+    font-size: 1.2rem;
+}
+section.form-container {
+    position:relative;
+    background-color: rgba(240, 255, 255, 0.902);
+    width: 35%;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px #091057, -1px -1px 10px #091057;
+    margin: 50px auto 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+div.field {
+    width: 90%;
+    margin: 20px auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.field :is(input, textarea)  {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 7px;
+    outline: none;
+}
+div.field-text input {
+    height: 3rem;
+}
+div.field textarea {
+    padding-top: 7px;
+    resize: vertical;
+}
+
+div.text-privacy {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+}
+div.text-privacy input {
+    height: 1rem;
+    width:fit-content;
+}
+div.button {
+    width: 80%;
+    height: 2rem;
+    margin: 40px auto;
+    background-color: #091057;
+    border-radius: 50px;
+}
+button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: inherit;
+    background-color: transparent;
+    border-radius: 50px;
+    color: white;
+}
+div.button:hover {
+    background-color: #EC8305;
+}
+button:hover {
+    cursor: pointer;
+    background-image:linear-gradient(#f8d4a9 10%, #f3b365 20%, #EC8305 85%,  #f3b365 95%, #f8d4a9);
+}
+
+form a img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+/*
+Accetto che i dati da me inviati, vengano raccolti e archiviati. Per maggiori informazioni e detagli 
+sull'utilizzo dei dati, consulta ala nosta<span> <a href="#">privacy policy</a></span>.*/

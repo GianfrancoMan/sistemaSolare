@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="./../assets/css/contatti.css">
+        <link rel="stylesheet" href="./../assets/css/testata.css">
+        <title>Contatti</title>
+    </head>
+
+    <body>
+    <div class="header">
+      <p class="title">Il Sistema Solare</p>      
+    </div>   
+    <section class="form-container">
+        <h2>Contattaci</h2>
+        <form action="/contatti.php" method="post" class="form-content">
+            <div class="field field-text">
+                <label for="name">Nome Completo</label>
+                <input type="text" name="name" id="name" placeholder="Inserisci Nome">
+            </div>
+
+            <div class="field field-text">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Inserisci la tua email">
+            </div>
+
+            <div class="field field-text">
+                <label for="message" class="label label__message">Messaggio</label>
+                <textarea type="" name="message" id="message" placeholder="Inserisci il testo del messaggio" rows="5"></textarea>
+            </div>
+
+            <div class="field">
+                <label for="privacy">Informativa privacy</label>
+                <div class="text-privacy">
+                    <input type="checkbox" name="message" id="message" placeholder="Inserisci il testo del messaggio">
+                    <span>
+                        Accetto che i dati da me inviati, vengano raccolti e archiviati. Per maggiori informazioni e detagli 
+                        sull'utilizzo dei dati, consulta ala nosta<a href="#"> privacy policy</a>
+                    </span>
+                </div>
+            </div>
+            <div class="button">
+                <button type="submit">INVIA</button>
+            </div>
+            <a href="./../index.html" title="home">
+                <img src="./../assets/img/icons8-casa-30.png" alt="Collegamento Home Page">
+            </a>
+        </form>
+    </section>     
+    </body>
+</html>
